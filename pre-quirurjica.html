@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles/pre.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <title>Pre-Quirurjico</title>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1 class="center"><b> IDENTIFICACIÓN PACIENTE PRE-QUIRURGICO</b></h1>
+
+        <div class="row">
+            <div class="col-sm-4">
+
+                <h2 class="nombre"><label>NOMBRE:</label></h2>
+
+                <h5 class="apellidop">
+                    <p>APELLIDOS PATERNO</p>
+                    <p>APELLIDO MATERNO</p>
+                    <p>NOMBRES</p>
+                </h5>
+
+            </div>
+
+
+            <div class="col-sm">
+
+
+                <h2 class="fecha"><label>FECHA DE NACIMIENTO:</label> </h2>
+                <h5>
+                    <input type="date">
+                </h5> <br>
+
+            </div>
+
+
+            <div class="col-sm">
+
+                <h2 class="cu"><label>CURP</label></h2>
+                <h5>
+                    <p>aqui va la curp</p>
+                </h5><br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>SEXO</label></h2>
+                <h5>
+                    <p>HOMBRE</p>
+                    <p>MUJER</p>
+                </h5><br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>EDAD</label></h2>
+                <h5>
+                    <p>edad</p>
+
+                </h5><br>
+
+            </div>
+
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-sm">
+                <h2><label>FECHA DE INGRESO</label></h2>
+                <h4>
+                    <p><input type="date"></p>
+                </h4><br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>HORA DE INGRESO</label></h2>
+                <h4>
+                    <input type="time">
+                </h4><br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>ALERGICO (A) A:</label></h2>
+                <h4>
+                    <p>alg</p>
+                </h4> <br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>GRUPO SANGUINEO Y FACTOR RH</label></h2>
+                <h4>
+                    <p>gs</p>
+                </h4> <br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>CIRUGÍA PROGRAMADA</label></h2>
+                <h4>
+                    <p>cr</p>
+                </h4> <br>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h2><label>DIAGNÓSTICO PRE-OPERATORIO</label></h2>
+                <h4>
+                    <p>dig op</p>
+                </h4> <br>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="col-sm">
+
+            <h2><label>TIPO DE ANESTESIA PROPUESTA</label></h2>
+            <h4>
+                <p>tap</p>
+            </h4> <br>
+
+        </div>
+
+        <hr>
+
+        <div class="col-sm">
+
+            <h2><label>MEDICO TRATANTE</label></h2>
+            <h4>
+                <p>med</p>
+            </h4> <br>
+
+        </div>
+
+        <div class="col-sm">
+
+            <h2><label>ENFERMERA(O) QUE INGRESA AL PACIENTE</label></h2>
+            <h4>
+                <p>nom enfe</p>
+            </h4> <br>
+
+
+
+            <button type="button" class="btn btn-primary" (click)="imprimir()">
+            <i class="fas fa-file-pdf"></i> 
+            Imprimir</button>
+
+
+        </div>
+
+    </div>
+
+
+</body>
